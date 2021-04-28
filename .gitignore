@@ -1,6 +1,9 @@
 /.idea/
-/Lab1_Report/
-!/Lab1_Report/Images
-!/Lab1_Report/Lab1.pdf
-!/Lab1_Report/Lab1.tex
 thinkdsp.py
+*.aux
+*.lof
+*.log
+*.lol
+*.out
+*.toc
+*.gz
