@@ -80,7 +80,7 @@
             \hfill \break
             \normalsize{Лабораторная работа}\\
             \hfill \break
-            \normalsize{\LARGE Фильтрация и свертка}\\
+            \normalsize{\LARGE Дифференцирование и интегрирование}\\
         \end{center}
         \hfill \break
         \hfill \break
@@ -158,7 +158,7 @@
 
     Получим выходной сигнал, который является совокупной суммой входных сигналов, и его спектр
 
-    \begin{lstlisting}[language=Python, caption= Создание сигнала facebook, label={lst:make_signal_fb}]
+    \begin{lstlisting}[language=Python, caption= Получение выходного сигнала, label={lst:make_output}]
         out_wave = in_wave.cumsum()
         out_wave.unbias()
         out_wave.plot()
